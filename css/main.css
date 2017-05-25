@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+body {
+  /*background: #0d1424;*/
+  font: 20px/150% Arial, Helvetica, sans-serif;
+  color: #232323;
+}
+.site-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+header {
+  height: 140px;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 40px;
+}
+nav {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+nav li {
+  float: left;
+  position: relative;
+  margin-right: 2em;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+#searchform {
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+  z-index: 100;
+  width: 200px;
+}
+#searchform .search {
+  width: 180px;
+  float: right;
+  background: #fff;
+  border: none;
+  padding: 6px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+  -webkit-transition: width .7s;
+  -moz-transition: width .7s;
+  transition: width .7s;
+}
